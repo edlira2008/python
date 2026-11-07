@@ -18,4 +18,14 @@ print(d1['edlira'])
 print(type(d1['edlira']))
 
 
+students.append(True)
+for student in students:
+    print(student)
+print(students.index('student3'))
+
+for key , in 'False' in d1.items():
+    print(F"{key} - {value}")
+
+
+
 
