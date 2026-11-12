@@ -10,7 +10,7 @@ print(words.count('spam'))
 #taple i ka dy funksione veq count edhe index
 
 
-#set osht unike dhe e sortume
+#set osht unike dhe e sortume/bashkesi albania
 x={"3",4,5,6,False , False}
 print(x)
 print(type(x))

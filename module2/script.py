@@ -24,11 +24,7 @@ for char in example:
     else:
         count[char]+=1
 print(count)
-
 print(count.get('d'))
-
-
-
 print(pcs.items())
 
 
@@ -36,6 +32,7 @@ qytetet:List[str|int]=['Prishtina','Elementi nr.33', 'New York', 'Prizreni','Tir
 print(qytetet.index('Prizreni'))
 qytetet.append("Tirana")
 #bashkangjet qit element apet nfund tlistes
+
 for i in range(5):
     qytetet.append(f"Elementi nr,{i}")
 
