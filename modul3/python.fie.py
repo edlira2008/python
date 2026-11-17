@@ -1,3 +1,5 @@
+#conditionals
+
 from intro33.script import student
 
 age=18
@@ -22,6 +24,7 @@ if color !='green' or in_city is False or  3>5 or 1!=1:
 
 
 studenti ='rigoni'
+
 students = ['rini', ' edlira', ' ernesi', 'drini ', 'syari','olti']
 
 if studenti not in  students:

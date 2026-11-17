@@ -6,6 +6,7 @@ pcs:Dict[int,'str'|List[str]]={3:'Lenovo',
                                }
 for key,value in pcs.items():
 
+
     if isinstance(value,list):
         #check per kushtin e dhene ne argumente
         for brand in value:
