@@ -12,7 +12,7 @@ for i in range(1,11):
 
 
 
-#steps i tregon psh ka sa numra podon mi kalu psh dmth hap mi kao
+#steps i tregon psh ka sa numra podon mi kalu psh dmth hap mi kap
 
 for i in range (0,10,3):
     print(i)
@@ -28,12 +28,12 @@ seasons=['spring','summer','autumn', 'winter','spring',
 #print(season) #iterastion over a list
 
 
-#dyjat mujan mi bo ose qita nalt ose qita posht saj
+#dyjat mujna mi bo ose qita nalt ose qita posht saj
 
 
 for i in range(0,len(seasons),5):
     print(seasons[i])
-    #ja nis numron prej 0, sa ekemnete ika lista me nga 5 hapa tui  kalu
+    #ja nis numron prej 0, sa elemnete ika lista me nga 5 hapa tui  kalu
 
 
 
