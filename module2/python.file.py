@@ -1,5 +1,5 @@
 words=('spam', 'sausages', 'eggs')
-words[2]='meat'
+#ords[2]='meat'
 #se supporton se osht taple edh immutable
 
 words=('spam', 'sausages', 'eggs')

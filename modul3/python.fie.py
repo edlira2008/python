@@ -1,6 +1,6 @@
 #conditionals
 
-from intro33.script import student
+from modul1.script import student
 
 age=18
 

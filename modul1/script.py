@@ -10,6 +10,7 @@ for student in students:
 
 
 
+
 t1=(3,3,3,4,5,6,7) #tuple e pandryshueshme
 s1={3,3,3,4,5,6,7} #set elemente unike
 d1={'edlira':17, 'rini':17 , 'lirak':23} #dict - key - value pairs

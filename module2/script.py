@@ -9,6 +9,7 @@ for key,value in pcs.items():
 
     if isinstance(value,list):
         #check per kushtin e dhene ne argumente
+
         for brand in value:
             print(f"Per pc nr.{key}, eshte brandi: {brand}")
     else:
@@ -29,7 +30,8 @@ print(count.get('d'))
 print(pcs.items())
 
 
-qytetet:List[str|int]=['Prishtina','Elementi nr.33', 'New York', 'Prizreni','Tirana', 'Shkupi']
+qytetet:List[str|int]=['Prishtina','Elementi nr.33', 'New York', 'Prizreni',
+                       'Tirana', 'Shkupi']
 print(qytetet.index('Prizreni'))
 qytetet.append("Tirana")
 #bashkangjet qit element apet nfund tlistes
