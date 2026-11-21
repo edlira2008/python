@@ -6,7 +6,7 @@ my_set={1,2,3}
 if isinstance(my_set,set):
     print('this is a set')
 
-other_set=set(['orange','pear','apple'])
+#other_set=set(['orange','pear','apple'])
 
 other_set=set(xyz)
 print(other_set)

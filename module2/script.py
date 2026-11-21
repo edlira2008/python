@@ -19,7 +19,7 @@ for key,value in pcs.items():
 
 example='PythonListMethodsExplained'
 example=example.lower()
-count:[str,int]={}
+count:dict[str,int]={}
 for char in example:
     if char not in count.keys():
         count[char]=1
@@ -27,8 +27,7 @@ for char in example:
         count[char]+=1
 print(count)
 print(count.get('d'))
-print(pcs.items())
-
+print(count.items())
 
 qytetet:List[str|int]=['Prishtina','Elementi nr.33', 'New York', 'Prizreni',
                        'Tirana', 'Shkupi']
