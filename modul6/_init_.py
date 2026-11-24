@@ -1,0 +1,1 @@
+#double underscore init . py pjes e collection te moduleve

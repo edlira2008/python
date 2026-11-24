@@ -20,15 +20,20 @@ print(result)
 #kur ekena funksionin me RETURN e bojna qi tmnyr gjith per me ekzekutu
 #detyra me fuqi psh 5 ne 3
 
+#void skthe3jn vlera po parametra kane
+
+
 def rectangle_area(a:float,b:float)->float:
     area = a*b  #ska scope jashte funksionit
+
+
     return round(area,2)
 
 print('siperfaqja e drejtekndeshit eshte:', rectangle_area(10.0 , 4.5),"njesi katrore")
 
 
 def circle_area(radius):
-    global pi #global ka scope dhe jashte funksionit
+    global pi #global ka scope dhe jashte funksionit/amo ska funksionu jasht funksionit
     pi = 3.14
     return pi*(radius**2)
 
