@@ -1,6 +1,6 @@
 import os#operatinhg system
 import json #java script object nmotation
-import datetime # ak te beje me daten dhe kohen
+import datetime #ka te beje me daten dhe kohen
 import re #regular expression
 #paketaq te gatshme ne pyton
 
